@@ -8,6 +8,11 @@ import {
     html,
     css,
     reactjs,
+    nextjs,
+    nextjsForCircle,
+    expressjs,
+    postman,
+    firebase,
     redux,
     tailwind,
     nodejs,
@@ -19,8 +24,12 @@ import {
     starbucks,
     tesla,
     shopify,
+    focalXIcon,
     youtube,
     crypto,
+    dashboard,
+    medicio,
+    hotelWeb,
     tripguide,
     threejs,
   } from "../assets";
@@ -48,6 +57,10 @@ import {
     {
       title: 'React Developer',
       icon:reactjs
+    },
+    {
+      title: 'Next.js Developer',
+      icon:nextjs
     }
     
   
@@ -66,13 +79,17 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Next.js",
+      icon: nextjsForCircle,
     },
     {
       name: "Redux Toolkit",
@@ -83,13 +100,21 @@ import {
       icon: tailwind,
     },
     // {
-    //   name: "Node JS",
-    //   icon: nodejs,
+    //   name: "Firebase",
+    //   icon: firebase,
     // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Express.js",
+      icon: expressjs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     // {
     //   name: "Three JS",
     //   icon: threejs,
@@ -97,6 +122,10 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "Postman",
+      icon: postman,
     },
     // {
     //   name: "figma",
@@ -110,29 +139,43 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "MERN Stack Intern",
+      company_name: "Focal X Agency",
+      icon: focalXIcon,
       iconBg: "#383E56",
-      date: "July 2021 - December 2022",
+      date: "August 2024 - Present",
       points: [
-        "Developing and maintaining web applications using Html, Css, Javascripts.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing and maintaining web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js).",
+    "Collaborating with senior developers to implement responsive and scalable web solutions.",
+    "Debugging and optimizing front-end components using React.js and Tailwind CSS.",
+    "Engaging in weekly coding sessions to enhance full-stack development skills."
         
       ],
     },
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "January 2022 - September 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    }
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "July 2021 - December 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using Html, Css, Javascripts.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+        
+    //   ],
+    // },
+    // {
+    //   title: "React.js Developer",
+    //   company_name: "Starbucks",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "January 2022 - September 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // }
     
     
     
@@ -169,41 +212,102 @@ import {
     {
       name: "Youtube Clone",
       description:
-        "Web-based platform that allows users to use youtube .",
+        "A functional YouTube clone providing core video browsing and playback features",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "material ui",
+          name: "Material UI",
           color: "green-text-gradient",
         },
       
       ],
       image: youtube,
       source_code_link: "https://github.com/godfatherzaher/youtube_clone",
+       live_demo_link: "https://youtube-clone-liart-omega-28.vercel.app/"
     },
     {
       name: "Cryptocurrency App ",
       description:
-        "Web application that enables users to see the change of the currency around the world.",
+        "Real-time cryptocurrency tracker displaying global currency trends.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "ant design",
+          name: "Ant Design",
           color: "green-text-gradient",
         },
         {
-          name: "chart.js",
+          name: "Chart.js",
           color: "pink-text-gradient",
         },
       ],
       image: crypto,
       source_code_link: "https://github.com/godfatherzaher/cryptoApp",
+      live_demo_link: "https://crypto-app-fawn-psi.vercel.app/"
+    },
+    {
+      name: "Dashboard ",
+      description:
+        "Interactive real-time analytics dashboard with seamless data integration and responsive layout",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+   
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/godfatherzaher/DashboardZaher",
+    },
+    {
+      name: "Landing Page (Figma-based)",
+      description:
+        "Responsive landing page closely following a Figma prototype, optimized for all devices.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hotelWeb,
+      source_code_link: "https://github.com/godfatherzaher/task5",
+        live_demo_link: "https://task5-two-snowy.vercel.app/"
+ 
+    },
+    {
+      name: "Landing Page ",
+      description:
+        "Responsive landing page with a clean, device-optimized design.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: medicio,
+      source_code_link: "https://github.com/godfatherzaher/task4",
+          live_demo_link: "https://medicio-web.vercel.app/"
     },
     
   ];

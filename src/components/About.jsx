@@ -57,11 +57,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
       >
-         I'm a skilled software developer with experience in JavaScript and
-         and expertise in frameworks like React and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+         I'm a skilled frontend developer with extensive experience in JavaScript and a strong
+          command of frameworks like React, Next.js, and Three.js. I specialize in building scalable,
+           high-performance web applications with seamless user experiences.
+            I'm a quick learner who collaborates closely with clients to create efficient,
+             user-friendly solutions that address real-world challenges. Let's work together to bring your ideas to life!
       </motion.p>  
 
       <div className='mt-20 flex flex-wrap gap-10'>
